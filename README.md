@@ -7,6 +7,10 @@ Python Libraries
 - sqlite3
 - python-dotenv
 
+If you are missing libraries
+
+- pip install LIBRARY_NAME_HERE
+
 ## How to run
 
 Make sure the following files are in the directory:
