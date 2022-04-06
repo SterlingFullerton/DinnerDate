@@ -529,37 +529,4 @@ def example_flow():
 
   d.connection.close()
 
-#d = dinnerDate()
-#print(d.createUser("JackFrost", "dfhwIof7*", "Jack", "Frost", "JackFrost@hotmail.com"))
-#print(d.createUser("Highlary", "fheuiwF$8", "High", "Lary", "Highlary@gmail.com"))
-
-#Send friend request from JackFrost to Highlary
-#d.addFriend("JackFrost", "Highlary")
-
-#Get friend requests for Highlary
-#print(d.getFriendRequests("Highlary"))
-
-#print(d.acceptFriendRequest("Highlary", "JackFrost"))
-
-#print(d.removeFriend("Highlary", "JackFrost"))
-
-#print(d.deleteUser("JackFrost", "dfhwIof7*"))
-
-#d.addFriend("JackFrost", "Highlary")
-#d.acceptFriendRequest("Highlary", "JackFrost")
-
-#d.addFriend("JackFrost", "yearterrorism")
-#d.acceptFriendRequest("yearterrorism", "JackFrost")
-
-#d.addFriend("JackFrost", "cheatcrab")
-#d.acceptFriendRequest("cheatcrab", "JackFrost")
-
-
-#d.createGroup("JackFrost", ["Highlary", "yearterrorism", "cheatcrab"], 43.47371058300456, -80.52798807621002)
-
-#d.deleteGroup("JackFrost", 2)
-
-
-#d.getLocalRestaurants(group_id = 1, lat = 43.47371058300456, lon = -80.52798807621002)
-
-#d.connection.close()
+example_flow()
